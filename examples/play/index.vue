@@ -25,6 +25,7 @@ export default {
       state:[[1,2]],
       props: { 
         multiple: true,
+        cy:"1"
         // checkStrictly: true 
        },
       options: [

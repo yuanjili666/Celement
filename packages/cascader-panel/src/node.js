@@ -8,6 +8,7 @@ export default class Node {
   constructor(data, config, parentNode) {
     this.data = data;
     this.config = config;
+    this.lg = !config.cy;
     this.parent = parentNode || null;
     this.level = !this.parent ? 1 : this.parent.level + 1;
     this.uid = uid++;
@@ -147,10 +148,14 @@ export default class Node {
   syncCheckState(checkedValue) {
     const value = this.getValueByOption();
     const checked = this.isSameNode(checkedValue, value);
-    if (checked) {
+
+    if (checked && !this.lg) {
       this.broadcast('check', checked);
       this.setCheckState(checked);
       this.emit('check');
+    }
+    if (this.lg) {
+      this.doCheck(checked);
     }
   }
 

@@ -17,6 +17,7 @@ export default class Store {
 
   constructor(data, config) {
     this.config = config;
+    this.lg = !config.cy;
     this.initNodes(data);
   }
 
@@ -24,7 +25,7 @@ export default class Store {
     data = coerceTruthyValueToArray(data);
     this.nodes = data.map(nodeData => new Node(nodeData, this.config));
     this.flattedNodes = this.getFlattedNodes(false, false);
-    this.leafNodes = this.getFlattedNodes(false, false);
+    this.leafNodes = this.getFlattedNodes(this.lg, false);
   }
 
   appendNode(nodeData, parentNode) {
