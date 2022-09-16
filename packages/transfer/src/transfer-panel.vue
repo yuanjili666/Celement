@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'element-ui/packages/checkbox-group';
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import ElInput from 'element-ui/packages/input';
-  import Locale from 'element-ui/src/mixins/locale';
+  import ElCheckboxGroup from 'celement-ui-me/packages/checkbox-group';
+  import ElCheckbox from 'celement-ui-me/packages/checkbox';
+  import ElInput from 'celement-ui-me/packages/input';
+  import Locale from 'celement-ui-me/src/mixins/locale';
 
   export default {
     mixins: [Locale],

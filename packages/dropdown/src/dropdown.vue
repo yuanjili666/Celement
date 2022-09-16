@@ -1,10 +1,10 @@
 <script>
-  import Clickoutside from 'element-ui/src/utils/clickoutside';
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import Migrating from 'element-ui/src/mixins/migrating';
-  import ElButton from 'element-ui/packages/button';
-  import ElButtonGroup from 'element-ui/packages/button-group';
-  import { generateId } from 'element-ui/src/utils/util';
+  import Clickoutside from 'celement-ui-me/src/utils/clickoutside';
+  import Emitter from 'celement-ui-me/src/mixins/emitter';
+  import Migrating from 'celement-ui-me/src/mixins/migrating';
+  import ElButton from 'celement-ui-me/packages/button';
+  import ElButtonGroup from 'celement-ui-me/packages/button-group';
+  import { generateId } from 'celement-ui-me/src/utils/util';
 
   export default {
     name: 'ElDropdown',

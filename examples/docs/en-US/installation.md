@@ -5,18 +5,18 @@
 Installing with npm is recommended and it works seamlessly with [webpack](https://webpack.js.org/).
 
 ```shell
-npm i element-ui -S
+npm i celement-ui-me -S
 ```
 
 ### CDN
 
-Get the latest version from [unpkg.com/element-ui](https://unpkg.com/element-ui/) , and import JavaScript and CSS file in your page.
+Get the latest version from [unpkg.com/celement-ui-me](https://unpkg.com/celement-ui-me/) , and import JavaScript and CSS file in your page.
 
 ```html
 <!-- import CSS -->
-<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<link rel="stylesheet" href="https://unpkg.com/celement-ui-me/lib/theme-chalk/index.css">
 <!-- import JavaScript -->
-<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://unpkg.com/celement-ui-me/lib/index.js"></script>
 ```
 
 :::tip

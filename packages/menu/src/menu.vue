@@ -1,8 +1,8 @@
 <script type="text/jsx">
-  import emitter from 'element-ui/src/mixins/emitter';
-  import Migrating from 'element-ui/src/mixins/migrating';
-  import Menubar from 'element-ui/src/utils/menu/aria-menubar';
-  import { addClass, removeClass, hasClass } from 'element-ui/src/utils/dom';
+  import emitter from 'celement-ui-me/src/mixins/emitter';
+  import Migrating from 'celement-ui-me/src/mixins/migrating';
+  import Menubar from 'celement-ui-me/src/utils/menu/aria-menubar';
+  import { addClass, removeClass, hasClass } from 'celement-ui-me/src/utils/dom';
 
   export default {
     name: 'ElMenu',
