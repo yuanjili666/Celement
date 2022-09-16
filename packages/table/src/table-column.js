@@ -1,6 +1,6 @@
 import { cellStarts, cellForced, defaultRenderCell, treeCellPrefix } from './config';
 import { mergeOptions, parseWidth, parseMinWidth, compose } from './util';
-import ElCheckbox from 'celement-ui-me/packages/checkbox';
+import ElCheckbox from 'celemUI/packages/checkbox';
 
 let columnIdSeed = 1;
 

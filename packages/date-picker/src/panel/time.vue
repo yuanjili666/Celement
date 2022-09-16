@@ -31,8 +31,8 @@
 </template>
 
 <script type="text/babel">
-  import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from 'celement-ui-me/src/utils/date-util';
-  import Locale from 'celement-ui-me/src/mixins/locale';
+  import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from 'celemUI/src/utils/date-util';
+  import Locale from 'celemUI/src/mixins/locale';
   import TimeSpinner from '../basic/time-spinner';
 
   export default {

@@ -59,13 +59,13 @@
 </template>
 <script>
   import debounce from 'throttle-debounce/debounce';
-  import ElInput from 'celement-ui-me/packages/input';
-  import Clickoutside from 'celement-ui-me/src/utils/clickoutside';
+  import ElInput from 'celemUI/packages/input';
+  import Clickoutside from 'celemUI/src/utils/clickoutside';
   import ElAutocompleteSuggestions from './autocomplete-suggestions.vue';
-  import Emitter from 'celement-ui-me/src/mixins/emitter';
-  import Migrating from 'celement-ui-me/src/mixins/migrating';
-  import { generateId } from 'celement-ui-me/src/utils/util';
-  import Focus from 'celement-ui-me/src/mixins/focus';
+  import Emitter from 'celemUI/src/mixins/emitter';
+  import Migrating from 'celemUI/src/mixins/migrating';
+  import { generateId } from 'celemUI/src/utils/util';
+  import Focus from 'celemUI/src/mixins/focus';
 
   export default {
     name: 'ElAutocomplete',

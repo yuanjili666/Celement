@@ -1,7 +1,7 @@
 <script>
-  import ElCheckbox from 'celement-ui-me/packages/checkbox';
-  import ElRadio from 'celement-ui-me/packages/radio';
-  import { isEqual } from 'celement-ui-me/src/utils/util';
+  import ElCheckbox from 'celemUI/packages/checkbox';
+  import ElRadio from 'celemUI/packages/radio';
+  import { isEqual } from 'celemUI/src/utils/util';
 
   const stopPropagation = e => e.stopPropagation();
 

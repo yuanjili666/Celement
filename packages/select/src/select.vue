@@ -136,21 +136,21 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'celement-ui-me/src/mixins/emitter';
-  import Focus from 'celement-ui-me/src/mixins/focus';
-  import Locale from 'celement-ui-me/src/mixins/locale';
-  import ElInput from 'celement-ui-me/packages/input';
+  import Emitter from 'celemUI/src/mixins/emitter';
+  import Focus from 'celemUI/src/mixins/focus';
+  import Locale from 'celemUI/src/mixins/locale';
+  import ElInput from 'celemUI/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'celement-ui-me/packages/tag';
-  import ElScrollbar from 'celement-ui-me/packages/scrollbar';
+  import ElTag from 'celemUI/packages/tag';
+  import ElScrollbar from 'celemUI/packages/scrollbar';
   import debounce from 'throttle-debounce/debounce';
-  import Clickoutside from 'celement-ui-me/src/utils/clickoutside';
-  import { addResizeListener, removeResizeListener } from 'celement-ui-me/src/utils/resize-event';
-  import scrollIntoView from 'celement-ui-me/src/utils/scroll-into-view';
-  import { getValueByPath, valueEquals, isIE, isEdge } from 'celement-ui-me/src/utils/util';
+  import Clickoutside from 'celemUI/src/utils/clickoutside';
+  import { addResizeListener, removeResizeListener } from 'celemUI/src/utils/resize-event';
+  import scrollIntoView from 'celemUI/src/utils/scroll-into-view';
+  import { getValueByPath, valueEquals, isIE, isEdge } from 'celemUI/src/utils/util';
   import NavigationMixin from './navigation-mixin';
-  import { isKorean } from 'celement-ui-me/src/utils/shared';
+  import { isKorean } from 'celemUI/src/utils/shared';
 
   export default {
     mixins: [Emitter, Locale, Focus('reference'), NavigationMixin],

@@ -4,10 +4,10 @@ import {
   isFunction,
   isUndefined,
   isDefined
-} from 'celement-ui-me/src/utils/types';
+} from 'celemUI/src/utils/types';
 import {
   getScrollContainer
-} from 'celement-ui-me/src/utils/dom';
+} from 'celemUI/src/utils/dom';
 
 const getStyleComputedProperty = (element, property) => {
   if (element === window) {

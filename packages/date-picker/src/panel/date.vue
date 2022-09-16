@@ -163,11 +163,11 @@
     extractDateFormat,
     extractTimeFormat,
     timeWithinRange
-  } from 'celement-ui-me/src/utils/date-util';
-  import Clickoutside from 'celement-ui-me/src/utils/clickoutside';
-  import Locale from 'celement-ui-me/src/mixins/locale';
-  import ElInput from 'celement-ui-me/packages/input';
-  import ElButton from 'celement-ui-me/packages/button';
+  } from 'celemUI/src/utils/date-util';
+  import Clickoutside from 'celemUI/src/utils/clickoutside';
+  import Locale from 'celemUI/src/mixins/locale';
+  import ElInput from 'celemUI/packages/input';
+  import ElButton from 'celemUI/packages/button';
   import TimePicker from './time';
   import YearTable from '../basic/year-table';
   import MonthTable from '../basic/month-table';

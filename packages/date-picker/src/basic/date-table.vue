@@ -32,9 +32,9 @@
 </template>
 
 <script>
-  import { getFirstDayOfMonth, getDayCountOfMonth, getWeekNumber, getStartDateOfMonth, prevDate, nextDate, isDate, clearTime as _clearTime} from 'celement-ui-me/src/utils/date-util';
-  import Locale from 'celement-ui-me/src/mixins/locale';
-  import { arrayFindIndex, arrayFind, coerceTruthyValueToArray } from 'celement-ui-me/src/utils/util';
+  import { getFirstDayOfMonth, getDayCountOfMonth, getWeekNumber, getStartDateOfMonth, prevDate, nextDate, isDate, clearTime as _clearTime} from 'celemUI/src/utils/date-util';
+  import Locale from 'celemUI/src/mixins/locale';
+  import { arrayFindIndex, arrayFind, coerceTruthyValueToArray } from 'celemUI/src/utils/util';
 
   const WEEKS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
   const getDateTimestamp = function(time) {

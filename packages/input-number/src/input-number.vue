@@ -46,9 +46,9 @@
   </div>
 </template>
 <script>
-  import ElInput from 'celement-ui-me/packages/input';
-  import Focus from 'celement-ui-me/src/mixins/focus';
-  import RepeatClick from 'celement-ui-me/src/directives/repeat-click';
+  import ElInput from 'celemUI/packages/input';
+  import Focus from 'celemUI/src/mixins/focus';
+  import RepeatClick from 'celemUI/src/directives/repeat-click';
 
   export default {
     name: 'ElInputNumber',

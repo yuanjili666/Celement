@@ -1,4 +1,4 @@
-export * from './celement-ui-me'
+export * from './celemUI'
 
-import * as ElementUI from './celement-ui-me'
+import * as ElementUI from './celemUI'
 export default ElementUI

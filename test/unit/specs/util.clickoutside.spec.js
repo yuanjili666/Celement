@@ -1,4 +1,4 @@
-import Clickoutside from 'celement-ui-me/src/utils/clickoutside';
+import Clickoutside from 'celemUI/src/utils/clickoutside';
 const ctx = '@@clickoutsideContext';
 
 import { triggerEvent, triggerClick } from '../util';

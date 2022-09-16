@@ -44,9 +44,9 @@
 </template>
 
 <script type="text/babel">
-  import { hasClass } from 'celement-ui-me/src/utils/dom';
-  import { isDate, range, nextDate, getDayCountOfYear } from 'celement-ui-me/src/utils/date-util';
-  import { arrayFindIndex, coerceTruthyValueToArray } from 'celement-ui-me/src/utils/util';
+  import { hasClass } from 'celemUI/src/utils/dom';
+  import { isDate, range, nextDate, getDayCountOfYear } from 'celemUI/src/utils/date-util';
+  import { arrayFindIndex, coerceTruthyValueToArray } from 'celemUI/src/utils/util';
 
   const datesInYear = year => {
     const numOfDays = getDayCountOfYear(year);

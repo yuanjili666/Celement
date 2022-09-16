@@ -24,10 +24,10 @@
   </span>
 </template>
 <script>
-import Popper from 'celement-ui-me/src/utils/vue-popper';
-import { on, off } from 'celement-ui-me/src/utils/dom';
-import { addClass, removeClass } from 'celement-ui-me/src/utils/dom';
-import { generateId } from 'celement-ui-me/src/utils/util';
+import Popper from 'celemUI/src/utils/vue-popper';
+import { on, off } from 'celemUI/src/utils/dom';
+import { addClass, removeClass } from 'celemUI/src/utils/dom';
+import { generateId } from 'celemUI/src/utils/util';
 
 export default {
   name: 'ElPopover',

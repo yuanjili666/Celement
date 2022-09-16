@@ -17,16 +17,16 @@
 <script>
 import CascaderMenu from './cascader-menu';
 import Store from './store';
-import merge from 'celement-ui-me/src/utils/merge';
-import AriaUtils from 'celement-ui-me/src/utils/aria-utils';
-import scrollIntoView from 'celement-ui-me/src/utils/scroll-into-view';
+import merge from 'celemUI/src/utils/merge';
+import AriaUtils from 'celemUI/src/utils/aria-utils';
+import scrollIntoView from 'celemUI/src/utils/scroll-into-view';
 import {
   noop,
   coerceTruthyValueToArray,
   isEqual,
   isEmpty,
   valueEquals
-} from 'celement-ui-me/src/utils/util';
+} from 'celemUI/src/utils/util';
 
 const { keys: KeyCode } = AriaUtils;
 const DefaultProps = {

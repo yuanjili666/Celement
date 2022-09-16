@@ -172,7 +172,7 @@
 ### 服务
 Loading 还可以以服务的方式调用。引入 Loading 服务：
 ```javascript
-import { Loading } from 'celement-ui-me';
+import { Loading } from 'celemUI';
 ```
 在需要调用时：
 ```javascript

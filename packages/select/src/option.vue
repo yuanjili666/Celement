@@ -16,8 +16,8 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'celement-ui-me/src/mixins/emitter';
-  import { getValueByPath, escapeRegexpString } from 'celement-ui-me/src/utils/util';
+  import Emitter from 'celemUI/src/mixins/emitter';
+  import { getValueByPath, escapeRegexpString } from 'celemUI/src/utils/util';
 
   export default {
     mixins: [Emitter],

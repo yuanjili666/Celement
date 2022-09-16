@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import merge from 'celement-ui-me/src/utils/merge';
-import PopupManager from 'celement-ui-me/src/utils/popup/popup-manager';
+import merge from 'celemUI/src/utils/merge';
+import PopupManager from 'celemUI/src/utils/popup/popup-manager';
 import getScrollBarWidth from '../scrollbar-width';
 import { getStyle, addClass, removeClass, hasClass } from '../dom';
 

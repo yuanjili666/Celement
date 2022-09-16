@@ -33,9 +33,9 @@
 </template>
 
 <script>
-  import { hasClass } from 'celement-ui-me/src/utils/dom';
-  import { isObject } from 'celement-ui-me/src/utils/types';
-  import Migrating from 'celement-ui-me/src/mixins/migrating';
+  import { hasClass } from 'celemUI/src/utils/dom';
+  import { isObject } from 'celemUI/src/utils/types';
+  import Migrating from 'celemUI/src/mixins/migrating';
 
   export default {
     name: 'ElRate',

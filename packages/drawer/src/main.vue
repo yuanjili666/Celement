@@ -47,8 +47,8 @@
 </template>
 
 <script>
-import Popup from 'celement-ui-me/src/utils/popup';
-import emitter from 'celement-ui-me/src/mixins/emitter';
+import Popup from 'celemUI/src/utils/popup';
+import emitter from 'celemUI/src/mixins/emitter';
 
 export default {
   name: 'ElDrawer',

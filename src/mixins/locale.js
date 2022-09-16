@@ -1,4 +1,4 @@
-import { t } from 'celement-ui-me/src/locale';
+import { t } from 'celemUI/src/locale';
 
 export default {
   methods: {

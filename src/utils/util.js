@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { isString, isObject } from 'celement-ui-me/src/utils/types';
+import { isString, isObject } from 'celemUI/src/utils/types';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 

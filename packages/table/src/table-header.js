@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import { hasClass, addClass, removeClass } from 'celement-ui-me/src/utils/dom';
-import ElCheckbox from 'celement-ui-me/packages/checkbox';
+import { hasClass, addClass, removeClass } from 'celemUI/src/utils/dom';
+import ElCheckbox from 'celemUI/packages/checkbox';
 import FilterPanel from './filter-panel.vue';
 import LayoutObserver from './layout-observer';
 import { mapStates } from './store/helper';

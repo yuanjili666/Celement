@@ -146,9 +146,9 @@ Pour l'effet collapse, utilisez le composant `el-collapse-transition`.
 
 ```js
 // fade/zoom
-import 'celement-ui-me/lib/theme-chalk/base.css';
+import 'celemUI/lib/theme-chalk/base.css';
 // collapse
-import CollapseTransition from 'celement-ui-me/lib/transitions/collapse-transition';
+import CollapseTransition from 'celemUI/lib/transitions/collapse-transition';
 import Vue from 'vue'
 
 Vue.component(CollapseTransition.name, CollapseTransition)

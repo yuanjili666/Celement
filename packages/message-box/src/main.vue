@@ -79,13 +79,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'celement-ui-me/src/utils/popup';
-  import Locale from 'celement-ui-me/src/mixins/locale';
-  import ElInput from 'celement-ui-me/packages/input';
-  import ElButton from 'celement-ui-me/packages/button';
-  import { addClass, removeClass } from 'celement-ui-me/src/utils/dom';
-  import { t } from 'celement-ui-me/src/locale';
-  import Dialog from 'celement-ui-me/src/utils/aria-dialog';
+  import Popup from 'celemUI/src/utils/popup';
+  import Locale from 'celemUI/src/mixins/locale';
+  import ElInput from 'celemUI/packages/input';
+  import ElButton from 'celemUI/packages/button';
+  import { addClass, removeClass } from 'celemUI/src/utils/dom';
+  import { t } from 'celemUI/src/locale';
+  import Dialog from 'celemUI/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {

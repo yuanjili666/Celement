@@ -1,4 +1,4 @@
-import { getPropByPath } from 'celement-ui-me/src/utils/util';
+import { getPropByPath } from 'celemUI/src/utils/util';
 
 export const cellStarts = {
   default: {

@@ -84,12 +84,12 @@
     prevYear,
     nextYear,
     nextMonth
-  } from 'celement-ui-me/src/utils/date-util';
-  import Clickoutside from 'celement-ui-me/src/utils/clickoutside';
-  import Locale from 'celement-ui-me/src/mixins/locale';
+  } from 'celemUI/src/utils/date-util';
+  import Clickoutside from 'celemUI/src/utils/clickoutside';
+  import Locale from 'celemUI/src/mixins/locale';
   import MonthTable from '../basic/month-table';
-  import ElInput from 'celement-ui-me/packages/input';
-  import ElButton from 'celement-ui-me/packages/button';
+  import ElInput from 'celemUI/packages/input';
+  import ElButton from 'celemUI/packages/button';
 
   const calcDefaultValue = (defaultValue) => {
     if (Array.isArray(defaultValue)) {

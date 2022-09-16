@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Loading from './loading.vue';
-import { addClass, removeClass, getStyle } from 'celement-ui-me/src/utils/dom';
-import { PopupManager } from 'celement-ui-me/src/utils/popup';
-import afterLeave from 'celement-ui-me/src/utils/after-leave';
+import { addClass, removeClass, getStyle } from 'celemUI/src/utils/dom';
+import { PopupManager } from 'celemUI/src/utils/popup';
+import afterLeave from 'celemUI/src/utils/after-leave';
 const Mask = Vue.extend(Loading);
 
 const loadingDirective = {};

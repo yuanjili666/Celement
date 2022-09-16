@@ -57,12 +57,12 @@
 </template>
 
 <script>
-import Locale from 'celement-ui-me/src/mixins/locale';
-import fecha from 'celement-ui-me/src/utils/date';
-import ElButton from 'celement-ui-me/packages/button';
-import ElButtonGroup from 'celement-ui-me/packages/button-group';
+import Locale from 'celemUI/src/mixins/locale';
+import fecha from 'celemUI/src/utils/date';
+import ElButton from 'celemUI/packages/button';
+import ElButtonGroup from 'celemUI/packages/button-group';
 import DateTable from './date-table';
-import { validateRangeInOneMonth } from 'celement-ui-me/src/utils/date-util';
+import { validateRangeInOneMonth } from 'celemUI/src/utils/date-util';
 
 const validTypes = ['prev-month', 'today', 'next-month'];
 const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

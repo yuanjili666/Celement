@@ -146,9 +146,9 @@ Element 内应用在部分组件的过渡动画，你也可以直接使用。在
 
 ```js
 // fade/zoom 等
-import 'celement-ui-me/lib/theme-chalk/base.css';
+import 'celemUI/lib/theme-chalk/base.css';
 // collapse 展开折叠
-import CollapseTransition from 'celement-ui-me/lib/transitions/collapse-transition';
+import CollapseTransition from 'celemUI/lib/transitions/collapse-transition';
 import Vue from 'vue'
 
 Vue.component(CollapseTransition.name, CollapseTransition)

@@ -43,10 +43,10 @@
   import HueSlider from './hue-slider';
   import AlphaSlider from './alpha-slider';
   import Predefine from './predefine';
-  import Popper from 'celement-ui-me/src/utils/vue-popper';
-  import Locale from 'celement-ui-me/src/mixins/locale';
-  import ElInput from 'celement-ui-me/packages/input';
-  import ElButton from 'celement-ui-me/packages/button';
+  import Popper from 'celemUI/src/utils/vue-popper';
+  import Locale from 'celemUI/src/mixins/locale';
+  import ElInput from 'celemUI/packages/input';
+  import ElButton from 'celemUI/packages/button';
 
   export default {
     name: 'el-color-picker-dropdown',

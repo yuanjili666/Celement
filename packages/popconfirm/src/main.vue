@@ -36,9 +36,9 @@
 </template>
 
 <script>
-import ElPopover from 'celement-ui-me/packages/popover';
-import ElButton from 'celement-ui-me/packages/button';
-import {t} from 'celement-ui-me/src/locale';
+import ElPopover from 'celemUI/packages/popover';
+import ElButton from 'celemUI/packages/button';
+import {t} from 'celemUI/src/locale';
 
 export default {
   name: 'ElPopconfirm',

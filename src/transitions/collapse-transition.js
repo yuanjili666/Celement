@@ -1,4 +1,4 @@
-import { addClass, removeClass } from 'celement-ui-me/src/utils/dom';
+import { addClass, removeClass } from 'celemUI/src/utils/dom';
 
 class Transition {
   beforeEnter(el) {

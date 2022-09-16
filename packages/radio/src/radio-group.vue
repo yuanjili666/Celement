@@ -9,7 +9,7 @@
   </component>
 </template>
 <script>
-  import Emitter from 'celement-ui-me/src/mixins/emitter';
+  import Emitter from 'celemUI/src/mixins/emitter';
 
   const keyCode = Object.freeze({
     LEFT: 37,

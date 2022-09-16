@@ -108,11 +108,11 @@
   </div>
 </template>
 <script>
-  import emitter from 'celement-ui-me/src/mixins/emitter';
-  import Migrating from 'celement-ui-me/src/mixins/migrating';
+  import emitter from 'celemUI/src/mixins/emitter';
+  import Migrating from 'celemUI/src/mixins/migrating';
   import calcTextareaHeight from './calcTextareaHeight';
-  import merge from 'celement-ui-me/src/utils/merge';
-  import {isKorean} from 'celement-ui-me/src/utils/shared';
+  import merge from 'celemUI/src/utils/merge';
+  import {isKorean} from 'celemUI/src/utils/shared';
 
   export default {
     name: 'ElInput',

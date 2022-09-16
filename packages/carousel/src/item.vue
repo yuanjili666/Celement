@@ -21,7 +21,7 @@
 </template>
 
 <script>
-  import { autoprefixer } from 'celement-ui-me/src/utils/util';
+  import { autoprefixer } from 'celemUI/src/utils/util';
   const CARD_SCALE = 0.83;
   export default {
     name: 'ElCarouselItem',

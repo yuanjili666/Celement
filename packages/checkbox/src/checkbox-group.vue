@@ -1,5 +1,5 @@
 <script>
-  import Emitter from 'celement-ui-me/src/mixins/emitter';
+  import Emitter from 'celemUI/src/mixins/emitter';
 
   export default {
     name: 'ElCheckboxGroup',

@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { addClass, removeClass } from 'celement-ui-me/src/utils/dom';
+import { addClass, removeClass } from 'celemUI/src/utils/dom';
 
 let hasModal = false;
 let hasInitZIndex = false;

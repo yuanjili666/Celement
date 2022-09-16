@@ -22,8 +22,8 @@
 
 ```javascript
 import Vue from 'vue';
-import ElementUI from 'celement-ui-me';
-import 'celement-ui-me/lib/theme-chalk/index.css';
+import ElementUI from 'celemUI';
+import 'celemUI/lib/theme-chalk/index.css';
 import App from './App.vue';
 
 Vue.use(ElementUI);
@@ -55,7 +55,7 @@ npm install babel-plugin-component -D
     [
       "component",
       {
-        "libraryName": "celement-ui-me",
+        "libraryName": "celemUI",
         "styleLibraryName": "theme-chalk"
       }
     ]
@@ -67,7 +67,7 @@ npm install babel-plugin-component -D
 
 ```javascript
 import Vue from 'vue';
-import { Button, Select } from 'celement-ui-me';
+import { Button, Select } from 'celemUI';
 import App from './App.vue';
 
 Vue.component(Button.name, Button);
@@ -165,7 +165,7 @@ import {
   MessageBox,
   Message,
   Notification
-} from 'celement-ui-me';
+} from 'celemUI';
 
 Vue.use(Pagination);
 Vue.use(Dialog);
@@ -260,7 +260,7 @@ Vue.prototype.$message = Message;
 
 ```js
 import Vue from 'vue';
-import Element from 'celement-ui-me';
+import Element from 'celemUI';
 Vue.use(Element, { size: 'small', zIndex: 3000 });
 ```
 
@@ -268,7 +268,7 @@ Vue.use(Element, { size: 'small', zIndex: 3000 });
 
 ```js
 import Vue from 'vue';
-import { Button } from 'celement-ui-me';
+import { Button } from 'celemUI';
 
 Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
 Vue.use(Button);

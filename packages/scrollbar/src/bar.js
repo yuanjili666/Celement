@@ -1,4 +1,4 @@
-import { on, off } from 'celement-ui-me/src/utils/dom';
+import { on, off } from 'celemUI/src/utils/dom';
 import { renderThumbStyle, BAR_MAP } from './util';
 
 /* istanbul ignore next */

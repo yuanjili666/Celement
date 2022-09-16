@@ -95,11 +95,11 @@ export interface InstallationOptions {
   size: string
 }
 
-/** The version of celement-ui-me */
+/** The version of celemUI */
 export const version: string
 
 /**
- * Install all celement-ui-me components into Vue.
+ * Install all celemUI components into Vue.
  * Please do not invoke this method directly.
  * Call `Vue.use(ElementUI)` to install.
  */

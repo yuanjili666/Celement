@@ -112,21 +112,21 @@
 </template>
 
 <script>
-import Popper from 'celement-ui-me/src/utils/vue-popper';
-import Clickoutside from 'celement-ui-me/src/utils/clickoutside';
-import Emitter from 'celement-ui-me/src/mixins/emitter';
-import Locale from 'celement-ui-me/src/mixins/locale';
-import Migrating from 'celement-ui-me/src/mixins/migrating';
-import ElInput from 'celement-ui-me/packages/input';
-import ElTag from 'celement-ui-me/packages/tag';
-import ElScrollbar from 'celement-ui-me/packages/scrollbar';
-import ElCascaderPanel from 'celement-ui-me/packages/cascader-panel';
-import AriaUtils from 'celement-ui-me/src/utils/aria-utils';
-import { t } from 'celement-ui-me/src/locale';
-import { isEqual, isEmpty, kebabCase } from 'celement-ui-me/src/utils/util';
-import { isUndefined, isFunction } from 'celement-ui-me/src/utils/types';
-import { isDef } from 'celement-ui-me/src/utils/shared';
-import { addResizeListener, removeResizeListener } from 'celement-ui-me/src/utils/resize-event';
+import Popper from 'celemUI/src/utils/vue-popper';
+import Clickoutside from 'celemUI/src/utils/clickoutside';
+import Emitter from 'celemUI/src/mixins/emitter';
+import Locale from 'celemUI/src/mixins/locale';
+import Migrating from 'celemUI/src/mixins/migrating';
+import ElInput from 'celemUI/packages/input';
+import ElTag from 'celemUI/packages/tag';
+import ElScrollbar from 'celemUI/packages/scrollbar';
+import ElCascaderPanel from 'celemUI/packages/cascader-panel';
+import AriaUtils from 'celemUI/src/utils/aria-utils';
+import { t } from 'celemUI/src/locale';
+import { isEqual, isEmpty, kebabCase } from 'celemUI/src/utils/util';
+import { isUndefined, isFunction } from 'celemUI/src/utils/types';
+import { isDef } from 'celemUI/src/utils/shared';
+import { addResizeListener, removeResizeListener } from 'celemUI/src/utils/resize-event';
 import debounce from 'throttle-debounce/debounce';
 
 const { keys: KeyCode } = AriaUtils;

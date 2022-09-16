@@ -45,9 +45,9 @@
   </div>
 </template>
 <script>
-  import ElCollapseTransition from 'celement-ui-me/src/transitions/collapse-transition';
-  import Emitter from 'celement-ui-me/src/mixins/emitter';
-  import { generateId } from 'celement-ui-me/src/utils/util';
+  import ElCollapseTransition from 'celemUI/src/transitions/collapse-transition';
+  import Emitter from 'celemUI/src/mixins/emitter';
+  import { generateId } from 'celemUI/src/utils/util';
 
   export default {
     name: 'ElCollapseItem',
