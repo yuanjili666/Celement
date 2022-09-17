@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["celemUI"],
+          "root": ["celemui"],
           "alias": {
-            "celemUI/src": "celemUI/lib"
+            "celemui/src": "celemui/lib"
           }
         }]
       ]

@@ -1,6 +1,6 @@
 <script>
-import fecha from 'celemUI/src/utils/date';
-import { range as rangeArr, getFirstDayOfMonth, getPrevMonthLastDays, getMonthDays, getI18nSettings, validateRangeInOneMonth } from 'celemUI/src/utils/date-util';
+import fecha from 'celemui/src/utils/date';
+import { range as rangeArr, getFirstDayOfMonth, getPrevMonthLastDays, getMonthDays, getI18nSettings, validateRangeInOneMonth } from 'celemui/src/utils/date-util';
 
 export default {
   props: {

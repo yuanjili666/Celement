@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import scrollbarWidth from 'celemUI/src/utils/scrollbar-width';
+import scrollbarWidth from 'celemui/src/utils/scrollbar-width';
 import { parseHeight } from './util';
 
 class TableLayout {

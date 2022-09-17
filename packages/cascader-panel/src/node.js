@@ -1,5 +1,5 @@
-import { isEqual, capitalize } from 'celemUI/src/utils/util';
-import { isDef } from 'celemUI/src/utils/shared';
+import { isEqual, capitalize } from 'celemui/src/utils/util';
+import { isDef } from 'celemui/src/utils/shared';
 
 let uid = 0;
 

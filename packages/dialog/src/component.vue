@@ -38,9 +38,9 @@
 </template>
 
 <script>
-  import Popup from 'celemUI/src/utils/popup';
-  import Migrating from 'celemUI/src/mixins/migrating';
-  import emitter from 'celemUI/src/mixins/emitter';
+  import Popup from 'celemui/src/utils/popup';
+  import Migrating from 'celemui/src/mixins/migrating';
+  import emitter from 'celemui/src/mixins/emitter';
 
   export default {
     name: 'ElDialog',

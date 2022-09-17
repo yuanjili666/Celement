@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Main from './main.vue';
-import { PopupManager } from 'celemUI/src/utils/popup';
-import { isVNode } from 'celemUI/src/utils/vdom';
-import { isObject } from 'celemUI/src/utils/types';
+import { PopupManager } from 'celemui/src/utils/popup';
+import { isVNode } from 'celemui/src/utils/vdom';
+import { isObject } from 'celemui/src/utils/types';
 let MessageConstructor = Vue.extend(Main);
 
 let instance;

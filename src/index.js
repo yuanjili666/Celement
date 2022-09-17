@@ -88,8 +88,8 @@ import Empty from '../packages/empty/index.js';
 import Descriptions from '../packages/descriptions/index.js';
 import DescriptionsItem from '../packages/descriptions-item/index.js';
 import Result from '../packages/result/index.js';
-import locale from 'celemUI/src/locale';
-import CollapseTransition from 'celemUI/src/transitions/collapse-transition';
+import locale from 'celemui/src/locale';
+import CollapseTransition from 'celemui/src/transitions/collapse-transition';
 
 const components = [
   Pagination,
@@ -210,7 +210,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '1.1.1',
+  version: '2.0.1',
   locale: locale.use,
   i18n: locale.i18n,
   install,

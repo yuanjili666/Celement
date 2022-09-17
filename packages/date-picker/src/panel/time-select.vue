@@ -19,8 +19,8 @@
 </template>
 
 <script type="text/babel">
-  import ElScrollbar from 'celemUI/packages/scrollbar';
-  import scrollIntoView from 'celemUI/src/utils/scroll-into-view';
+  import ElScrollbar from 'celemui/packages/scrollbar';
+  import scrollIntoView from 'celemui/src/utils/scroll-into-view';
 
   const parseTime = function(time) {
     const values = (time || '').split(':');

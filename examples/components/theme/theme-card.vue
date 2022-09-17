@@ -250,7 +250,7 @@ import {
 } from './constant.js';
 import { savePreviewToLocal } from './localstorage';
 import { tintColor } from '../../color.js';
-import dateUtil from 'celemUI/src/utils/date';
+import dateUtil from 'celemui/src/utils/date';
 import { getActionDisplayName } from '../theme-configurator/utils/utils';
 
 export default {

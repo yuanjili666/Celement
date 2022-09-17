@@ -36,7 +36,7 @@
   </label>
 </template>
 <script>
-  import Emitter from 'celemUI/src/mixins/emitter';
+  import Emitter from 'celemui/src/mixins/emitter';
 
   export default {
     name: 'ElRadioButton',

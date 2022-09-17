@@ -74,10 +74,10 @@
 </template>
 
 <script type="text/babel">
-  import ElInputNumber from 'celemUI/packages/input-number';
+  import ElInputNumber from 'celemui/packages/input-number';
   import SliderButton from './button.vue';
   import SliderMarker from './marker';
-  import Emitter from 'celemUI/src/mixins/emitter';
+  import Emitter from 'celemui/src/mixins/emitter';
 
   export default {
     name: 'ElSlider',

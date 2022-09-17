@@ -7,7 +7,7 @@
   </form>
 </template>
 <script>
-  import objectAssign from 'celemUI/src/utils/merge';
+  import objectAssign from 'celemui/src/utils/merge';
 
   export default {
     name: 'ElForm',

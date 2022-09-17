@@ -59,7 +59,7 @@
         const docsHandler = getHandler('docs', 'docs-style');
 
         if (!this.chalk) {
-          const url = `https://unpkg.com/celemUI@${ version }/lib/theme-chalk/index.css`;
+          const url = `https://unpkg.com/celemui@${ version }/lib/theme-chalk/index.css`;
           this.getCSSString(url, chalkHandler, 'chalk');
         } else {
           chalkHandler();

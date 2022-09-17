@@ -21,15 +21,15 @@ Le site précédent vous permet de visualiser et de télécharger un nouveau th�
 $--color-primary: teal;
 
 /* chemin vers le fichier de police, requis */
-$--font-path: '~celemUI/lib/theme-chalk/fonts';
+$--font-path: '~celemui/lib/theme-chalk/fonts';
 
-@import "~celemUI/packages/theme-chalk/src/index";
+@import "~celemui/packages/theme-chalk/src/index";
 ```
 
 Puis dans le fichier d'entrée, importez ce style au lieu de celui d'Element:
 ```JS
 import Vue from 'vue'
-import Element from 'celemUI'
+import Element from 'celemui'
 import './element-variables.scss'
 
 Vue.use(Element)
@@ -109,7 +109,7 @@ Importing your own theme is just like importing the default theme, only this tim
 
 ```javascript
 import '../theme/index.css'
-import ElementUI from 'celemUI'
+import ElementUI from 'celemui'
 import Vue from 'vue'
 
 Vue.use(ElementUI)
@@ -123,7 +123,7 @@ Si vous utilisez `babel-plugin-component` pour les imports sur demande, modifiez
     [
       "component",
       {
-        "libraryName": "celemUI",
+        "libraryName": "celemui",
         "styleLibraryName": "~theme"
       }
     ]

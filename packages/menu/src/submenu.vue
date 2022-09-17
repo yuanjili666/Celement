@@ -1,8 +1,8 @@
 <script>
-  import ElCollapseTransition from 'celemUI/src/transitions/collapse-transition';
+  import ElCollapseTransition from 'celemui/src/transitions/collapse-transition';
   import menuMixin from './menu-mixin';
-  import Emitter from 'celemUI/src/mixins/emitter';
-  import Popper from 'celemUI/src/utils/vue-popper';
+  import Emitter from 'celemui/src/mixins/emitter';
+  import Popper from 'celemui/src/utils/vue-popper';
 
   const poperMixins = {
     props: {

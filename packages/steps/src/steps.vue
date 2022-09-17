@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Migrating from 'celemUI/src/mixins/migrating';
+import Migrating from 'celemui/src/mixins/migrating';
 
 export default {
   name: 'ElSteps',

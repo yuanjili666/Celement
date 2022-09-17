@@ -72,9 +72,9 @@
 </template>
 
 <script type="text/jsx">
-  import ElCollapseTransition from 'celemUI/src/transitions/collapse-transition';
-  import ElCheckbox from 'celemUI/packages/checkbox';
-  import emitter from 'celemUI/src/mixins/emitter';
+  import ElCollapseTransition from 'celemui/src/transitions/collapse-transition';
+  import ElCheckbox from 'celemui/packages/checkbox';
+  import emitter from 'celemui/src/mixins/emitter';
   import { getNodeKey } from './model/util';
 
   export default {

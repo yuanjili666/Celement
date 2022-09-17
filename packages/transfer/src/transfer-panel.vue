@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'celemUI/packages/checkbox-group';
-  import ElCheckbox from 'celemUI/packages/checkbox';
-  import ElInput from 'celemUI/packages/input';
-  import Locale from 'celemUI/src/mixins/locale';
+  import ElCheckboxGroup from 'celemui/packages/checkbox-group';
+  import ElCheckbox from 'celemui/packages/checkbox';
+  import ElInput from 'celemui/packages/input';
+  import Locale from 'celemui/src/mixins/locale';
 
   export default {
     mixins: [Locale],

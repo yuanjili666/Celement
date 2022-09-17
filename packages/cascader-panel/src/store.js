@@ -1,5 +1,5 @@
 import Node from './node';
-import { coerceTruthyValueToArray, valueEquals } from 'celemUI/src/utils/util';
+import { coerceTruthyValueToArray, valueEquals } from 'celemui/src/utils/util';
 
 const flatNodes = (data, leafOnly) => {
   return data.reduce((res, node) => {

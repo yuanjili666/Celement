@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { t } from 'celemUI/src/locale';
+import { t } from 'celemui/src/locale';
 export default {
   name: 'ElPageHeader',
 

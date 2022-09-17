@@ -5,18 +5,18 @@
 Instalar mediante npm es la forma recomendada ya que se integra fácilmente con [webpack](https://webpack.js.org/).
 
 ```shell
-npm i celemUI -S
+npm i celemui -S
 ```
 
 ### CDN
 
-Obtenga la última versión desde [unpkg.com/celemUI](https://unpkg.com/celemUI/) , e importe el JavaScript y los archivos CSS en su página.
+Obtenga la última versión desde [unpkg.com/celemui](https://unpkg.com/celemui/) , e importe el JavaScript y los archivos CSS en su página.
 
 ```html
 <!-- import CSS -->
-<link rel="stylesheet" href="https://unpkg.com/celemUI/lib/theme-chalk/index.css">
+<link rel="stylesheet" href="https://unpkg.com/celemui/lib/theme-chalk/index.css">
 <!-- import JavaScript -->
-<script src="https://unpkg.com/celemUI/lib/index.js"></script>
+<script src="https://unpkg.com/celemui/lib/index.js"></script>
 ```
 
 ##Tip

@@ -11,12 +11,12 @@ lerna-debug.log.*
 lib
 .idea
 .vscode
-examples/celemUI
+examples/celemui
 examples/pages/en-US
 examples/pages/zh-CN
 examples/pages/es
 examples/pages/fr-FR
-fe.element/celemUI
+fe.element/celemui
 .npmrc
 coverage
 waiter.config.js

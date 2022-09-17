@@ -1,8 +1,8 @@
 <script type="text/jsx">
-  import emitter from 'celemUI/src/mixins/emitter';
-  import Migrating from 'celemUI/src/mixins/migrating';
-  import Menubar from 'celemUI/src/utils/menu/aria-menubar';
-  import { addClass, removeClass, hasClass } from 'celemUI/src/utils/dom';
+  import emitter from 'celemui/src/mixins/emitter';
+  import Migrating from 'celemui/src/mixins/migrating';
+  import Menubar from 'celemui/src/utils/menu/aria-menubar';
+  import { addClass, removeClass, hasClass } from 'celemui/src/utils/dom';
 
   export default {
     name: 'ElMenu',

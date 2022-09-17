@@ -1,8 +1,8 @@
 <script>
-import ElScrollbar from 'celemUI/packages/scrollbar';
+import ElScrollbar from 'celemui/packages/scrollbar';
 import CascaderNode from './cascader-node.vue';
-import Locale from 'celemUI/src/mixins/locale';
-import { generateId } from 'celemUI/src/utils/util';
+import Locale from 'celemui/src/mixins/locale';
+import { generateId } from 'celemui/src/utils/util';
 
 export default {
   name: 'ElCascaderMenu',

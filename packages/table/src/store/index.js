@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Watcher from './watcher';
-import { arrayFind } from 'celemUI/src/utils/util';
+import { arrayFind } from 'celemui/src/utils/util';
 
 Watcher.prototype.mutations = {
   setData(states, data) {

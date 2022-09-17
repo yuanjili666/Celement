@@ -1,8 +1,8 @@
 // reference https://github.com/noeldelgado/gemini-scrollbar/blob/master/index.js
 
-import { addResizeListener, removeResizeListener } from 'celemUI/src/utils/resize-event';
-import scrollbarWidth from 'celemUI/src/utils/scrollbar-width';
-import { toObject } from 'celemUI/src/utils/util';
+import { addResizeListener, removeResizeListener } from 'celemui/src/utils/resize-event';
+import scrollbarWidth from 'celemui/src/utils/scrollbar-width';
+import { toObject } from 'celemui/src/utils/util';
 import Bar from './bar';
 
 /* istanbul ignore next */

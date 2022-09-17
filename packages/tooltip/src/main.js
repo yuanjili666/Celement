@@ -1,7 +1,7 @@
-import Popper from 'celemUI/src/utils/vue-popper';
+import Popper from 'celemui/src/utils/vue-popper';
 import debounce from 'throttle-debounce/debounce';
-import { addClass, removeClass, on, off } from 'celemUI/src/utils/dom';
-import { generateId } from 'celemUI/src/utils/util';
+import { addClass, removeClass, on, off } from 'celemui/src/utils/dom';
+import { generateId } from 'celemui/src/utils/util';
 import Vue from 'vue';
 
 export default {

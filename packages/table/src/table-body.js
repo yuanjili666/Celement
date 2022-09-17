@@ -1,8 +1,8 @@
-import { arrayFindIndex } from 'celemUI/src/utils/util';
+import { arrayFindIndex } from 'celemui/src/utils/util';
 import { getCell, getColumnByCell, getRowIdentity } from './util';
-import { getStyle, hasClass, removeClass, addClass } from 'celemUI/src/utils/dom';
-import ElCheckbox from 'celemUI/packages/checkbox';
-import ElTooltip from 'celemUI/packages/tooltip';
+import { getStyle, hasClass, removeClass, addClass } from 'celemui/src/utils/dom';
+import ElCheckbox from 'celemui/packages/checkbox';
+import ElTooltip from 'celemui/packages/tooltip';
 import debounce from 'throttle-debounce/debounce';
 import LayoutObserver from './layout-observer';
 import { mapStates } from './store/helper';

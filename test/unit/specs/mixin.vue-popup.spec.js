@@ -1,4 +1,4 @@
-import VuePopup from 'celemUI/src/utils/popup';
+import VuePopup from 'celemui/src/utils/popup';
 import { createTest, destroyVM } from '../util';
 
 const Popup = Object.assign({}, VuePopup, {

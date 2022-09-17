@@ -1,9 +1,9 @@
-import { kebabCase } from 'celemUI/src/utils/util';
+import { kebabCase } from 'celemui/src/utils/util';
 /**
  * Show migrating guide in browser console.
  *
  * Usage:
- * import Migrating from 'celemUI/src/mixins/migrating';
+ * import Migrating from 'celemui/src/mixins/migrating';
  *
  * mixins: [Migrating]
  *

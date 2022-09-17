@@ -1,4 +1,4 @@
-import defaultLang from 'celemUI/src/locale/lang/zh-CN';
+import defaultLang from 'celemui/src/locale/lang/zh-CN';
 import Vue from 'vue';
 import deepmerge from 'deepmerge';
 import Format from './format';

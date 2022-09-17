@@ -1,6 +1,6 @@
-import objectAssign from 'celemUI/src/utils/merge';
+import objectAssign from 'celemui/src/utils/merge';
 import { markNodeData, NODE_KEY } from './util';
-import { arrayFindIndex } from 'celemUI/src/utils/util';
+import { arrayFindIndex } from 'celemui/src/utils/util';
 
 export const getChildState = node => {
   let all = true;

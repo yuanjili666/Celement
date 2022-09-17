@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import loadingVue from './loading.vue';
-import { addClass, removeClass, getStyle } from 'celemUI/src/utils/dom';
-import { PopupManager } from 'celemUI/src/utils/popup';
-import afterLeave from 'celemUI/src/utils/after-leave';
-import merge from 'celemUI/src/utils/merge';
+import { addClass, removeClass, getStyle } from 'celemui/src/utils/dom';
+import { PopupManager } from 'celemui/src/utils/popup';
+import afterLeave from 'celemui/src/utils/after-leave';
+import merge from 'celemui/src/utils/merge';
 
 const LoadingConstructor = Vue.extend(loadingVue);
 

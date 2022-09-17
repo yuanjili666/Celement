@@ -101,9 +101,9 @@
 </template>
 
 <script type="text/babel">
-  import { getRangeHours, getRangeMinutes, modifyTime } from 'celemUI/src/utils/date-util';
-  import ElScrollbar from 'celemUI/packages/scrollbar';
-  import RepeatClick from 'celemUI/src/directives/repeat-click';
+  import { getRangeHours, getRangeMinutes, modifyTime } from 'celemui/src/utils/date-util';
+  import ElScrollbar from 'celemui/packages/scrollbar';
+  import RepeatClick from 'celemui/src/directives/repeat-click';
 
   export default {
     components: { ElScrollbar },

@@ -1,4 +1,4 @@
-import ElCheckbox from 'celemUI/packages/checkbox';
+import ElCheckbox from 'celemui/packages/checkbox';
 export default {
   name: 'ElTableRow',
   props: [

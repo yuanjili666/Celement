@@ -1,5 +1,5 @@
 import DescriptionsRow from './descriptions-row';
-import { isFunction } from 'celemUI/src/utils/types';
+import { isFunction } from 'celemui/src/utils/types';
 
 export default {
   name: 'ElDescriptions',

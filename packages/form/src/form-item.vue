@@ -40,9 +40,9 @@
 </template>
 <script>
   import AsyncValidator from 'async-validator';
-  import emitter from 'celemUI/src/mixins/emitter';
-  import objectAssign from 'celemUI/src/utils/merge';
-  import { noop, getPropByPath } from 'celemUI/src/utils/util';
+  import emitter from 'celemui/src/mixins/emitter';
+  import objectAssign from 'celemui/src/utils/merge';
+  import { noop, getPropByPath } from 'celemui/src/utils/util';
   import LabelWrap from './label-wrap';
   export default {
     name: 'ElFormItem',

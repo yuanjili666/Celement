@@ -52,9 +52,9 @@
 </template>
 
 <script>
-import { on, off } from 'celemUI/src/utils/dom';
-import { rafThrottle, isFirefox } from 'celemUI/src/utils/util';
-import { PopupManager } from 'celemUI/src/utils/popup';
+import { on, off } from 'celemui/src/utils/dom';
+import { rafThrottle, isFirefox } from 'celemui/src/utils/util';
+import { PopupManager } from 'celemui/src/utils/popup';
 
 const Mode = {
   CONTAIN: {

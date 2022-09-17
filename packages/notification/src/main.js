@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Main from './main.vue';
-import merge from 'celemUI/src/utils/merge';
-import { PopupManager } from 'celemUI/src/utils/popup';
-import { isVNode } from 'celemUI/src/utils/vdom';
+import merge from 'celemui/src/utils/merge';
+import { PopupManager } from 'celemui/src/utils/popup';
+import { isVNode } from 'celemui/src/utils/vdom';
 const NotificationConstructor = Vue.extend(Main);
 
 let instance;

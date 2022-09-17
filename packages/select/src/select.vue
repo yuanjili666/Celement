@@ -136,21 +136,21 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'celemUI/src/mixins/emitter';
-  import Focus from 'celemUI/src/mixins/focus';
-  import Locale from 'celemUI/src/mixins/locale';
-  import ElInput from 'celemUI/packages/input';
+  import Emitter from 'celemui/src/mixins/emitter';
+  import Focus from 'celemui/src/mixins/focus';
+  import Locale from 'celemui/src/mixins/locale';
+  import ElInput from 'celemui/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'celemUI/packages/tag';
-  import ElScrollbar from 'celemUI/packages/scrollbar';
+  import ElTag from 'celemui/packages/tag';
+  import ElScrollbar from 'celemui/packages/scrollbar';
   import debounce from 'throttle-debounce/debounce';
-  import Clickoutside from 'celemUI/src/utils/clickoutside';
-  import { addResizeListener, removeResizeListener } from 'celemUI/src/utils/resize-event';
-  import scrollIntoView from 'celemUI/src/utils/scroll-into-view';
-  import { getValueByPath, valueEquals, isIE, isEdge } from 'celemUI/src/utils/util';
+  import Clickoutside from 'celemui/src/utils/clickoutside';
+  import { addResizeListener, removeResizeListener } from 'celemui/src/utils/resize-event';
+  import scrollIntoView from 'celemui/src/utils/scroll-into-view';
+  import { getValueByPath, valueEquals, isIE, isEdge } from 'celemui/src/utils/util';
   import NavigationMixin from './navigation-mixin';
-  import { isKorean } from 'celemUI/src/utils/shared';
+  import { isKorean } from 'celemui/src/utils/shared';
 
   export default {
     mixins: [Emitter, Locale, Focus('reference'), NavigationMixin],

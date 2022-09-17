@@ -112,8 +112,8 @@ fileSave(sassPath)
   .write(sassImportText, 'utf8')
   .end('\n');
 
-// 添加到 celemUI.d.ts
-const elementTsPath = path.join(__dirname, '../../types/celemUI.d.ts');
+// 添加到 celemui.d.ts
+const elementTsPath = path.join(__dirname, '../../types/celemui.d.ts');
 
 let elementTsText = `${fs.readFileSync(elementTsPath)}
 /** ${ComponentName} Component */

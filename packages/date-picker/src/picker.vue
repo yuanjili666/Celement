@@ -85,12 +85,12 @@
 
 <script>
 import Vue from 'vue';
-import Clickoutside from 'celemUI/src/utils/clickoutside';
-import { formatDate, parseDate, isDateObject, getWeekNumber } from 'celemUI/src/utils/date-util';
-import Popper from 'celemUI/src/utils/vue-popper';
-import Emitter from 'celemUI/src/mixins/emitter';
-import ElInput from 'celemUI/packages/input';
-import merge from 'celemUI/src/utils/merge';
+import Clickoutside from 'celemui/src/utils/clickoutside';
+import { formatDate, parseDate, isDateObject, getWeekNumber } from 'celemui/src/utils/date-util';
+import Popper from 'celemui/src/utils/vue-popper';
+import Emitter from 'celemui/src/mixins/emitter';
+import ElInput from 'celemui/packages/input';
+import merge from 'celemui/src/utils/merge';
 
 const NewPopper = {
   props: {

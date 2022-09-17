@@ -28,7 +28,7 @@
 </template>
 
 <script>
-  import ElTooltip from 'celemUI/packages/tooltip';
+  import ElTooltip from 'celemui/packages/tooltip';
 
   export default {
     name: 'ElSliderButton',

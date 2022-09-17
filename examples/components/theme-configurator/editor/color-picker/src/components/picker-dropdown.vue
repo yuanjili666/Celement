@@ -51,10 +51,10 @@
   import AlphaSlider from './alpha-slider';
   import Predefine from './predefine';
   import ColorList from './color-list';
-  import Popper from 'celemUI/src/utils/vue-popper';
-  import Locale from 'celemUI/src/mixins/locale';
-  import ElInput from 'celemUI/packages/input';
-  import ElButton from 'celemUI/packages/button';
+  import Popper from 'celemui/src/utils/vue-popper';
+  import Locale from 'celemui/src/mixins/locale';
+  import ElInput from 'celemui/packages/input';
+  import ElButton from 'celemui/packages/button';
 
   export default {
     name: 'el-color-picker-dropdown',

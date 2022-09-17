@@ -30,8 +30,8 @@
 </template>
 <script>
   import Menu from './menu-mixin';
-  import ElTooltip from 'celemUI/packages/tooltip';
-  import Emitter from 'celemUI/src/mixins/emitter';
+  import ElTooltip from 'celemui/packages/tooltip';
+  import Emitter from 'celemui/src/mixins/emitter';
 
   export default {
     name: 'ElMenuItem',

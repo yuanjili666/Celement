@@ -10,8 +10,8 @@ SUB_FOLDER='2.15'
 mkdir -p $SUB_FOLDER
 rm -rf *.js *.css *.map static
 rm -rf $SUB_FOLDER/**
-cp -rf ../../examples/celemUI/** .
-cp -rf ../../examples/celemUI/** $SUB_FOLDER/
+cp -rf ../../examples/celemui/** .
+cp -rf ../../examples/celemui/** $SUB_FOLDER/
 cd ../..
 
 # deploy domestic site

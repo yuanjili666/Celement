@@ -6,7 +6,7 @@
   </transition>
 </template>
 <script>
-  import Popper from 'celemUI/src/utils/vue-popper';
+  import Popper from 'celemui/src/utils/vue-popper';
 
   export default {
     name: 'ElDropdownMenu',

@@ -1,6 +1,6 @@
 <script>
   import TabBar from './tab-bar';
-  import { addResizeListener, removeResizeListener } from 'celemUI/src/utils/resize-event';
+  import { addResizeListener, removeResizeListener } from 'celemui/src/utils/resize-event';
 
   function noop() {}
   const firstUpperCase = str => {

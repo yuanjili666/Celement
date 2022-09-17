@@ -13,10 +13,10 @@
 </template>
 
 <script type="text/babel">
-  import Locale from 'celemUI/src/mixins/locale';
-  import { isDate, range, getDayCountOfMonth, nextDate } from 'celemUI/src/utils/date-util';
-  import { hasClass } from 'celemUI/src/utils/dom';
-  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'celemUI/src/utils/util';
+  import Locale from 'celemui/src/mixins/locale';
+  import { isDate, range, getDayCountOfMonth, nextDate } from 'celemui/src/utils/date-util';
+  import { hasClass } from 'celemui/src/utils/dom';
+  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'celemui/src/utils/util';
 
   const datesInMonth = (year, month) => {
     const numOfDays = getDayCountOfMonth(year, month);

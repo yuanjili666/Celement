@@ -1,4 +1,4 @@
-import { once, on } from 'celemUI/src/utils/dom';
+import { once, on } from 'celemui/src/utils/dom';
 
 export default {
   bind(el, binding, vnode) {

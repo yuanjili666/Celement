@@ -34,9 +34,9 @@
   import TreeStore from './model/tree-store';
   import { getNodeKey, findNearestComponent } from './model/util';
   import ElTreeNode from './tree-node.vue';
-  import {t} from 'celemUI/src/locale';
-  import emitter from 'celemUI/src/mixins/emitter';
-  import { addClass, removeClass } from 'celemUI/src/utils/dom';
+  import {t} from 'celemui/src/locale';
+  import emitter from 'celemui/src/mixins/emitter';
+  import { addClass, removeClass } from 'celemui/src/utils/dom';
 
   export default {
     name: 'ElTree',

@@ -9,21 +9,21 @@ var transitionList = fs.readdirSync(path.resolve(__dirname, '../src/transitions'
 var externals = {};
 
 Object.keys(Components).forEach(function(key) {
-  externals[`celemUI/packages/${key}`] = `celemUI/lib/${key}`;
+  externals[`celemui/packages/${key}`] = `celemui/lib/${key}`;
 });
 
-externals['celemUI/src/locale'] = 'celemUI/lib/locale';
+externals['celemui/src/locale'] = 'celemui/lib/locale';
 utilsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`celemUI/src/utils/${file}`] = `celemUI/lib/utils/${file}`;
+  externals[`celemui/src/utils/${file}`] = `celemui/lib/utils/${file}`;
 });
 mixinsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`celemUI/src/mixins/${file}`] = `celemUI/lib/mixins/${file}`;
+  externals[`celemui/src/mixins/${file}`] = `celemui/lib/mixins/${file}`;
 });
 transitionList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`celemUI/src/transitions/${file}`] = `celemUI/lib/transitions/${file}`;
+  externals[`celemui/src/transitions/${file}`] = `celemui/lib/transitions/${file}`;
 });
 
 externals = [Object.assign({
@@ -36,7 +36,7 @@ exports.alias = {
   main: path.resolve(__dirname, '../src'),
   packages: path.resolve(__dirname, '../packages'),
   examples: path.resolve(__dirname, '../examples'),
-  'celemUI': path.resolve(__dirname, '../')
+  'celemui': path.resolve(__dirname, '../')
 };
 
 exports.vue = {

@@ -35,8 +35,8 @@ const defaults = {
 
 import Vue from 'vue';
 import msgboxVue from './main.vue';
-import merge from 'celemUI/src/utils/merge';
-import { isVNode } from 'celemUI/src/utils/vdom';
+import merge from 'celemui/src/utils/merge';
+import { isVNode } from 'celemui/src/utils/vdom';
 
 const MessageBoxConstructor = Vue.extend(msgboxVue);
 

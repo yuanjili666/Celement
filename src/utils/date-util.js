@@ -1,5 +1,5 @@
-import fecha from 'celemUI/src/utils/date';
-import { t } from 'celemUI/src/locale';
+import fecha from 'celemui/src/utils/date';
+import { t } from 'celemui/src/locale';
 
 const weeks = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];

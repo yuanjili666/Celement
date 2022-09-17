@@ -36,9 +36,9 @@
   </div>
 </template>
 <script>
-  import emitter from 'celemUI/src/mixins/emitter';
-  import Focus from 'celemUI/src/mixins/focus';
-  import Migrating from 'celemUI/src/mixins/migrating';
+  import emitter from 'celemui/src/mixins/emitter';
+  import Focus from 'celemui/src/mixins/focus';
+  import Migrating from 'celemui/src/mixins/migrating';
 
   export default {
     name: 'ElSwitch',

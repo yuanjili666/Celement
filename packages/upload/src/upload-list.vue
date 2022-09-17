@@ -63,8 +63,8 @@
   </transition-group>
 </template>
 <script>
-  import Locale from 'celemUI/src/mixins/locale';
-  import ElProgress from 'celemUI/packages/progress';
+  import Locale from 'celemui/src/mixins/locale';
+  import ElProgress from 'celemui/packages/progress';
 
   export default {
 

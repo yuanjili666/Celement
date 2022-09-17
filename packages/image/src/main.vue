@@ -23,9 +23,9 @@
 
 <script>
   import ImageViewer from './image-viewer';
-  import Locale from 'celemUI/src/mixins/locale';
-  import { on, off, getScrollContainer, isInContainer } from 'celemUI/src/utils/dom';
-  import { isString, isHtmlElement } from 'celemUI/src/utils/types';
+  import Locale from 'celemui/src/mixins/locale';
+  import { on, off, getScrollContainer, isInContainer } from 'celemui/src/utils/dom';
+  import { isString, isHtmlElement } from 'celemui/src/utils/types';
   import throttle from 'throttle-debounce/throttle';
 
   const isSupportObjectFit = () => document.documentElement.style.objectFit !== undefined;

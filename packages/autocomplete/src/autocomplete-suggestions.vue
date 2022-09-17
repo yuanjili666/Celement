@@ -18,9 +18,9 @@
   </transition>
 </template>
 <script>
-  import Popper from 'celemUI/src/utils/vue-popper';
-  import Emitter from 'celemUI/src/mixins/emitter';
-  import ElScrollbar from 'celemUI/packages/scrollbar';
+  import Popper from 'celemui/src/utils/vue-popper';
+  import Emitter from 'celemui/src/mixins/emitter';
+  import ElScrollbar from 'celemui/packages/scrollbar';
 
   export default {
     components: { ElScrollbar },

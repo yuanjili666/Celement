@@ -1,8 +1,8 @@
 <script>
 import UploadList from './upload-list';
 import Upload from './upload';
-import ElProgress from 'celemUI/packages/progress';
-import Migrating from 'celemUI/src/mixins/migrating';
+import ElProgress from 'celemui/packages/progress';
+import Migrating from 'celemui/src/mixins/migrating';
 
 function noop() {}
 

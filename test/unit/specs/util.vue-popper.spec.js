@@ -1,4 +1,4 @@
-import VuePopper from 'celemUI/src/utils/vue-popper';
+import VuePopper from 'celemui/src/utils/vue-popper';
 import { createTest } from '../util';
 
 const Popper = Object.assign({}, VuePopper, {

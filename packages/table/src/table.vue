@@ -213,12 +213,12 @@
 </template>
 
 <script type="text/babel">
-  import ElCheckbox from 'celemUI/packages/checkbox';
+  import ElCheckbox from 'celemui/packages/checkbox';
   import { debounce, throttle } from 'throttle-debounce';
-  import { addResizeListener, removeResizeListener } from 'celemUI/src/utils/resize-event';
-  import Mousewheel from 'celemUI/src/directives/mousewheel';
-  import Locale from 'celemUI/src/mixins/locale';
-  import Migrating from 'celemUI/src/mixins/migrating';
+  import { addResizeListener, removeResizeListener } from 'celemui/src/utils/resize-event';
+  import Mousewheel from 'celemui/src/directives/mousewheel';
+  import Locale from 'celemui/src/mixins/locale';
+  import Migrating from 'celemui/src/mixins/migrating';
   import { createStore, mapStates } from './store/helper';
   import TableLayout from './table-layout';
   import TableBody from './table-body';

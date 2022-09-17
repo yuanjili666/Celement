@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { on } from 'celemUI/src/utils/dom';
+import { on } from 'celemui/src/utils/dom';
 
 const nodeList = [];
 const ctx = '@@clickoutsideContext';

@@ -9,21 +9,21 @@
   <a href="https://coveralls.io/github/ElemeFE/element?branch=master">
     <img src="https://coveralls.io/repos/github/ElemeFE/element/badge.svg?branch=master">
   </a>
-  <a href="https://cdnjs.com/libraries/celemUI">
-    <img src="https://img.shields.io/cdnjs/v/celemUI.svg">
+  <a href="https://cdnjs.com/libraries/celemui">
+    <img src="https://img.shields.io/cdnjs/v/celemui.svg">
   </a>
-  <a href="https://www.npmjs.org/package/celemUI">
-    <img src="https://img.shields.io/npm/v/celemUI.svg">
+  <a href="https://www.npmjs.org/package/celemui">
+    <img src="https://img.shields.io/npm/v/celemui.svg">
   </a>
-  <a href="https://npmcharts.com/compare/celemUI?minimal=true">
-    <img src="http://img.shields.io/npm/dm/celemUI.svg">
+  <a href="https://npmcharts.com/compare/celemui?minimal=true">
+    <img src="http://img.shields.io/npm/dm/celemui.svg">
   </a>
   <br>
-  <a href="http://img.badgesize.io/https://unpkg.com/celemUI/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
-    <img src="http://img.badgesize.io/https://unpkg.com/celemUI/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
+  <a href="http://img.badgesize.io/https://unpkg.com/celemui/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
+    <img src="http://img.badgesize.io/https://unpkg.com/celemui/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
   </a>
-  <a href="http://img.badgesize.io/https://unpkg.com/celemUI/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
-    <img src="http://img.badgesize.io/https://unpkg.com/celemUI/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
+  <a href="http://img.badgesize.io/https://unpkg.com/celemui/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
+    <img src="http://img.badgesize.io/https://unpkg.com/celemui/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
   </a>
   <a href="#backers">
     <img src="https://opencollective.com/element/backers/badge.svg">
@@ -67,13 +67,13 @@ For Vue 3.0, we recommend using [Element Plus](https://github.com/element-plus/e
 
 ## Install
 ```shell
-npm install celemUI -S
+npm install celemui -S
 ```
 
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import Element from 'celemUI'
+import Element from 'celemui'
 
 Vue.use(Element)
 
@@ -82,7 +82,7 @@ import {
   Select,
   Button
   // ...
-} from 'celemUI'
+} from 'celemui'
 
 Vue.component(Select.name, Select)
 Vue.component(Button.name, Button)

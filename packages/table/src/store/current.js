@@ -1,4 +1,4 @@
-import { arrayFind } from 'celemUI/src/utils/util';
+import { arrayFind } from 'celemui/src/utils/util';
 import { getRowIdentity } from '../util';
 
 export default {
