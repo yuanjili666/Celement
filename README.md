@@ -2,39 +2,21 @@
   <img src="https://cdn.rawgit.com/ElemeFE/element/dev/element_logo.svg">
 </p>
 
-<p align="center">
-  <a href="https://travis-ci.org/ElemeFE/element">
-    <img src="https://travis-ci.org/ElemeFE/element.svg?branch=master">
-  </a>
-  <a href="https://coveralls.io/github/ElemeFE/element?branch=master">
-    <img src="https://coveralls.io/repos/github/ElemeFE/element/badge.svg?branch=master">
-  </a>
-  <a href="https://cdnjs.com/libraries/celemui">
-    <img src="https://img.shields.io/cdnjs/v/celemui.svg">
-  </a>
-  <a href="https://www.npmjs.org/package/celemui">
-    <img src="https://img.shields.io/npm/v/celemui.svg">
-  </a>
-  <a href="https://npmcharts.com/compare/celemui?minimal=true">
-    <img src="http://img.shields.io/npm/dm/celemui.svg">
-  </a>
-  <br>
-  <a href="http://img.badgesize.io/https://unpkg.com/celemui/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
-    <img src="http://img.badgesize.io/https://unpkg.com/celemui/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
-  </a>
-  <a href="http://img.badgesize.io/https://unpkg.com/celemui/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
-    <img src="http://img.badgesize.io/https://unpkg.com/celemui/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
-  </a>
-  <a href="#backers">
-    <img src="https://opencollective.com/element/backers/badge.svg">
-  </a>
-  <a href="#sponsors">
-    <img src="https://opencollective.com/element/sponsors/badge.svg">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
-  </a>
-</p>
+# 项目介绍
+1.当前这个项目是是element ui 2.15.10 版本的 源码 继续进行二次改造，并且更改了包名上传到个人的npm 上
+2.上传的npm 包名是 celemui  ，npm 上的连接：https://www.npmjs.com/package/celemui
+
+
+# 版本变更介绍
+
+### 1、初始版本2.0.1
+  1.修改级联组件的多选回显问题，cy 设置，可以实现父级别设置后子级别也能够回显选中效果
+  2.
+
+### 2、V 2.0.2
+1.修改README 文件的介绍
+2.修改git 地址
+
 
 > A Vue.js 2.0 UI Toolkit for Web.
 
@@ -105,42 +87,6 @@ We have collected some [frequently asked questions](https://github.com/ElemeFE/e
 
 ## Contribution
 Please make sure to read the contributing guide ([中文](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.zh-CN.md) | [English](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.en-US.md) | [Español](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.es.md) | [Français](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.fr-FR.md)) before making a pull request.
-
-## Special Thanks
-English documentation is brought to you by SwiftGG Translation Team:
-- [raychenfj](https://github.com/raychenfj)
-- [kevin](http://thekevin.cn/)
-- [曾小涛](https://github.com/zengxiaotao)
-- [湾仔王二](https://github.com/wanzaiwanger)
-- [BlooDLine](http://www.ibloodline.com/)
-- [陈铭嘉](https://chenmingjia.github.io/)
-- [千叶知风](http://mpc6.com/)
-- [梁杰](http://numbbbbb.com)
-- [Changing](https://github.com/sunzhuo11)
-- [mmoaay](https://github.com/mmoaay)
-
-Spanish documentation is made possible by these community developers:
-- [adavie1](https://github.com/adavie1)
-- [carmencitaqiu](https://github.com/carmencitaqiu)
-- [coderdiaz](https://github.com/coderdiaz)
-- [fedegar33](https://github.com/fedegar33)
-- [Gonzalo2310](https://github.com/Gonzalo2310)
-- [lesterbx](https://github.com/lesterbx)
-- [ProgramerGuy](https://github.com/ProgramerGuy)
-- [SantiagoGdaR](https://github.com/SantiagoGdaR)
-- [sigfriedCub1990](https://github.com/sigfriedCub1990)
-- [thechosenjuan](https://github.com/thechosenjuan)
-
-French documentation is made possible by these community developers:
-- [smalesys](https://github.com/smalesys)
-- [blombard](https://github.com/blombard)
-
-## Join Discussion Group
-
-Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in discussion group :
-
-<img alt="Join Discusion Group" src="https://user-images.githubusercontent.com/17680888/93177882-0ae92d80-f766-11ea-870d-3fa2d7f06454.png" width="300">
-
 
 ## LICENSE
 [MIT](LICENSE)
